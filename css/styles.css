@@ -1,12 +1,12 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 
 /* Styles for the body */
 
 body {
-    font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #001B2B;
     background-color: #f8f8fc;
 }
@@ -19,6 +19,7 @@ body {
     background-image: -moz-linear-gradient(6deg,rgba(150,213,253,1.00) 0%,rgba(4,135,217,1.00) 51.50%);
     background-image: -o-linear-gradient(6deg,rgba(150,213,253,1.00) 0%,rgba(4,135,217,1.00) 51.50%);
     background-image: linear-gradient(84deg,rgba(150,213,253,1.00) 0%,rgba(4,135,217,1.00) 51.50%);
+    border: 1px outset #002135;
 }
 
 .resume-main {
@@ -52,4 +53,17 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.bg-warning {
+	column-rule-color: #02446E;
+}
+
+.title-color {
+	color: #E3F4FE;
+}
+
+.footer-design {
+    background-color: #013250;
+    color: #86CFFC;
+    text-align: center;
 }
