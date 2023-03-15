@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body {
+    color: #F4EF2E;
+    background-image: -webkit-linear-gradient(270deg,rgba(144,142,207,1.00) 0%,rgba(0,1,81,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(144,142,207,1.00) 0%,rgba(0,1,81,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(144,142,207,1.00) 0%,rgba(0,1,81,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(144,142,207,1.00) 0.00%,rgba(0,1,81,1.00) 100%);
+    font-family: 'Audiowide', cursive;
+	
+}
+.zaza {
+    width: 263px;
+    background-color: #CF1B1E;
+    height: 207px;
+    border-radius: 21px;
+    border-width: 126px;
+    margin-left: 46px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 10px;
+    padding-bottom: 19px;
+} 
