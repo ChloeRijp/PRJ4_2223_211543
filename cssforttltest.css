@@ -1,0 +1,17 @@
+@charset "utf-8";
+.red {
+	color: #F30408;
+	background-color: #FC9FA1
+}
+.blue {
+	color: #001DF3;
+	background-color: #A8C5FD
+}
+.green { 
+	color: #00FF49;
+	background-color: #B6FFCC
+}
+.yellow {
+	color: #989C00;
+	background-color: #FDFFB8
+}
