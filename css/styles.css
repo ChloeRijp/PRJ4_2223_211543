@@ -1,69 +1,150 @@
-/* Use this file to use your own styles*/
+/* Importing a Google Font */
 
-/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text&display=swap" rel="stylesheet');
 
-/* Styles for the body */
+/* Changing the main font and background colour */
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #001B2B;
-    background-color: #f8f8fc;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #FFF7D6;
+    color: #516265;
 }
 
-/* Styles for custom classes in the document. (There are more, try to find them out!) */
+/* Changing the background colour for the header */
 
-.resume-header {
-    background-color: #0487D9;
-    background-image: -webkit-linear-gradient(6deg,rgba(150,213,253,1.00) 0%,rgba(4,135,217,1.00) 51.50%);
-    background-image: -moz-linear-gradient(6deg,rgba(150,213,253,1.00) 0%,rgba(4,135,217,1.00) 51.50%);
-    background-image: -o-linear-gradient(6deg,rgba(150,213,253,1.00) 0%,rgba(4,135,217,1.00) 51.50%);
-    background-image: linear-gradient(84deg,rgba(150,213,253,1.00) 0%,rgba(4,135,217,1.00) 51.50%);
-    border: 1px outset #002135;
+header {
+	background-color: #000060;
 }
 
-.resume-main {
-    background-color: #D8EFFD;
+/* Changing the background color for the navigation bar */
+
+.navbar {
+    background-color: #FFEFAE;
 }
 
-.resume-aside {
-    background-color: #CCE7FF;
+/* Effect on social media buttons */
+
+footer a:hover {
+	opacity: .5;
 }
 
-/* Styles for lists in the document */
 
-.biography-details li::before, .skill-list li::before {
-	content: ">";
-	font-weight: 800;
+.text-homepage {
+	font-family: 'Crimson Text', serif;
+}
+
+.bgvideo {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(12,3,51,0,3),rgba(12,3,51,0,3));
+    position: relative;
+    padding-top: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left 0;
+	padding: 20px 8%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between; 
+	
+}
+
+nav .hahlogo {
+	width: 80px;
+}
+
+nav ul li{
+	list-style: none;
 	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+	margin-left: 40px;
 }
 
-.biography-details li::before {
-    color: #0487D9;
+nav ul li a{
+    text-decoration: none;
+    color: #FF950A;
+	font-size: 17px;	
 }
 
-.biography-details li, .skill-list li {
-	padding-left: 1em;
+.content{
+	text-align: center;
 }
 
-/* Styles for contact icons */
-
-.contact-icon {
-	height: 1em;
-	flex-basis: 1.4em;
-}
-.bg-warning {
-	column-rule-color: #02446E;
+.content h1{ 
+font-size: 160px;
+font-weight: 600;
+color: #FF950A;
+transition: 0.5s;
 }
 
-.title-color {
-	color: #E3F4FE;
+.content h1:hover{
+	-webkit-text-stroke: 2px #FF950A;
+	color: transparent;
+}
+.content a {
+    text-decoration: none;
+    display: table-row;
+    color: #516265;
+    font-size: 24px;
+    border: 2px solid #516265;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    border-radius: 50px;
+    clear: none;
 }
 
-.footer-design {
-    background-color: #013250;
-    color: #86CFFC;
+.backvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.backvideo {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.backvideo {
+		width: auto;
+		height: 100%;
+	}
+}
+
+.values {
     text-align: center;
+    max-width: 750px;
 }
+
+.cornerstones{
+    text-align: center;
+    justify-content: center;
+    border: medium solid #516265;
+    background-color: #FFEFAE;
+    -webkit-box-shadow: 0px 0 106px -66px #292100;
+    box-shadow: 0px 0 106px -66px #292100;
+    border-radius: 30px;
+    padding-top: 43px;
+    padding-right: 43px;
+    padding-bottom: 43px;
+    padding-left: 43px;
+    margin-top: 55px;
+    margin-right: 55px;
+    margin-bottom: 55px;
+    margin-left: 55px;
+}
+

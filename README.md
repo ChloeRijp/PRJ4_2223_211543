@@ -1,27 +1,28 @@
-# prj4-cv
+# prj4-group-template
 
-A template to create a CV while learning HTML and CSS
+### A template for creating a group website
 
-## See it live!
+This one page example uses the following patterns:
+- A navigation bar
+- A hero section with two buttons and a gradient background
+- A carousel with three images
+- A grid with cards and placeholder images
+- A footer
+- Some CSS customization: navigation bar, hero section and body have their own background color
+- Google Fonts: <https://fonts.google.com/specimen/Raleway>
 
-Click on <https://buas-media-interactive.github.io/prj4-cv/> to see what the résumé looks like when published!
+### See it at work!
 
-## Create your own CV
+The project is published at <https://buas-media-interactive.github.io/prj4-group-template>
 
-Create your own GitHub repository based on this template by clicking on
-[Use this template](https://github.com/buas-media-interactive/prj4-cv/generate).
+### Create your own group website
 
-## Course requirements
+Click on [Use this template](https://github.com/buas-media-interactive/prj4-group-template/generate) to create a new repository for your group website.
 
-In order to pass the individual assessment, you must modify the following elements:
+Please check the comments in [index.html](https://github.com/buas-media-interactive/prj4-group-template/blob/main/index.html) and [css/styles.css](https://github.com/buas-media-interactive/prj4-group-template/blob/css/styles.css) as well as the [Bootstrap 5.1 Documentation](https://getbootstrap.com/docs/5.1/) for help with customizing the template.
 
-- Modify the **text content**: Change your name, add jobs, schools, skills and hobbies to the CV
-- Modify the **styles**: Make sure that at least one font, one text colour and one background color are changed.
-- Add **images**: Put your portrait and the logos of the employers you've worked with and schools you've studied in
-- Publish it with **GitHub pages**: Add the link to your CV in the _README.md_ file (yes, this one). We'll be checking your work by clicking on that link, and we'll also check that it works on a mobile phone.
-- Check and **fix any errors**: there should be no broken links or images, and there must be no error when checking your CV on <https://validator.w3.org/>
+### Image credits
 
-## Image credits
+Social media icons: FontAwesome - <https://fontawesome.com/> - Licensed under Creative Commons Attribution 4.0 (CC-BY-4.0)
 
-- Emojis: Twemoji by Twitter - https://twemoji.twitter.com/ - Licensed under Creative Commons Attribution 4.0 (CC-BY-4.0)
-- Social icons: FontAwesome - https://fontawesome.com/ - Licensed under Creative Commons Attribution 4.0 (CC-BY-4.0)
+Photos of the campus were taken by Raphaël Velt © [Breda University of Applied Sciences](https://www.buas.nl/)
